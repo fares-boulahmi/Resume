@@ -6,72 +6,72 @@
 
 ---
 
-#### Summary
+## Summary
 
-Full-stack developer with 13 months of hands-on production experience delivering 7 client web platforms — e-learning systems, a medical price-comparison marketplace, and a cloud-hosting resale platform — several of them solo, all built on an undocumented proprietary framework that demanded constant reverse-engineering. Since late 2025, paused new client acquisition to rebuild data structures & algorithms fundamentals and deepen backend engineering skills, while reaching working conversational proficiency in English and progressing in German. Now targeting backend-focused full-stack roles in Germany and internationally, with room for select freelance work.
+Backend-focused full-stack developer with 7 shipped production projects (Aug 2024 – Sep 2025), specializing in reverse-engineering undocumented systems — legacy schemas, unstable third-party APIs, frameworks with no public docs — and re-architecting around real failure modes. Delivered a self-healing fix for a crashing production database holding live payment data, solved a silently-shifting data contract in a third-party checkout API, and designed a multi-tenant plugin architecture now serving 5 paying clients with zero-code onboarding. Currently deepening data structures, algorithms, and backend system design.
 
-#### Highlights
+---
 
-- Shipped features across 7 client platforms in 13 months, working solo or near-solo on more than half of them — data models, APIs, and UI, start to finish
-- Became the team's go-to expert on an undocumented, proprietary framework and wrote the internal documentation still used to onboard new developers
-- Designed a multi-tenant plugin architecture that turned new-client onboarding into a zero-code configuration checklist, now live across 5 client domains
-- Fixed a crashing production dashboard tied to 4 years of live financial data with a self-healing repair pattern — zero risky writes to historical records
-- Reverse-engineered framework internals to ship a full public-facing auth system and a profile-update flow the framework was never built to support
+## Technical Skills
 
-#### Skills
+**Languages:** JavaScript (Node.js), TypeScript, C++
+**Backend:** Node.js, Express.js, REST API design, JWT authentication, role-based access control (RBAC), webhook handling, third-party API integration
+**Database:** MongoDB (schema design, data integrity); working exposure to SQL/relational databases
+**Real-time:** WebSocket, Server-Sent Events
+**Frontend:** Vue.js 2, Vuex, React.js/TS, Tailwind CSS, Liquid
+**Testing & DevOps:** Working exposure to Jest-based testing and Docker (existing framework infrastructure)
+**Tools:** Git, Tiptap
 
-- **Backend & APIs:** Node.js, Express.js/ts , RESTful & webhook-based integration, JWT authentication & role-based access control, WebSocket, Server-Sent Events, payment gateway integration (Konnect and others), third-party/undocumented API integration
-- **Data:** MongoDB — schema design, defensive/self-healing data patterns, aggregation for analytics & reporting
-- **Frontend:** Vue.js 2, Vuex, Liquid (server-side templating), Tailwind CSS, Tiptap rich-text customization , React.js/ts 
-- **Other:**  multi-tenant/plugin architecture, technical documentation
-- **Currently deepening:** Data Structures & Algorithms
+---
 
-#### Experience
+## Professional Experience
 
-##### Freelance Full-Stack Developer — Contract / Agency-Sourced Projects
+### Full-Stack Developer (Contract) — Third-Party Development Agency
+**Aug 2024 – Sep 2025**
+Delivered 7 production projects under one agency/manager, on an undocumented in-house framework (Vue 2 + Liquid + Node.js + MongoDB + JWT), with regular check-ins and approval on key decisions. Became the team's de facto framework expert by reverse-engineering its internals for others.
 
-_Aug 2024 – Present · Remote (Tunisia)_
+**Alyis — Cloud Hosting Reseller Platform** · *Jan – Aug 2025, primary developer*
+- Built full commerce pipeline: cart validation, order validation, payment retry handling, and real-time order-status updates over WebSocket
+- Resolved a silently-shifting upstream API data contract by treating every purchase as a fresh validation step, reshaping payload and refreshing tokens at point of purchase
+- Reverse-engineered undocumented upstream API behavior through trial and error, recovering from an account-wide rate-limit block in the process
 
-Delivered features across 7 client platforms, nearly all on the same undocumented, proprietary in-house framework (Vue 2 + Liquid + Node.js + MongoDB), which meant reverse-engineering core framework behavior on almost every non-trivial task.
+**White-Label E-Learning Platform (Multi-Tenant)** · *Apr – Jul 2025*
+- Designed a plugin architecture enabling zero-code client onboarding — now live for 5 paying clients under their own domains
+- Built full course, category, and payment systems (Konnect integration, manual approval workflows, package pricing) plus a live-session scheduling plugin
+- Wrote deployment documentation precise enough for a non-technical teammate to onboard new clients independently
 
-**E-Learning Platform — White-Label, Multi-Tenant** · _Apr – Aug 2025_
+**EliClass — Financial & Attendance Management Platform** · *Apr 2025*
+- Fixed a crashing production database holding live payment data via self-healing defensive checks — no bulk migration required
+- Built attendance-sheet and profit/revenue reporting features from scratch, including printable PDF generation
 
-- Turned an existing e-learning codebase into a multi-tenant platform now live across 5 client domains, architecting a plugin system that reduced new-client onboarding to zero-code configuration
-- Built the course, category, payment (Konnect), and role-based auth systems, plus a live-session-scheduling plugin used by teachers, students, and admins
-- Wrote the deployment documentation non-developers now use to onboard new clients end-to-end
+**You Learn — E-Learning Platform** · *Sep 2024 – Mar 2025, primary developer*
+- Built full course catalog, dashboard player, and progress/certificate system from an empty repository on an undocumented framework
+- Designed all data models from scratch, reverse-engineering patterns from other internal projects
+- Built a review/testimonial system where none existed in the base framework
 
-**You Learn — E-Learning Platform** · _Sep 2024 – Mar 2025 · Solo_
+**Additional Projects:** ComparePlus (medical price comparison — built full public auth system, fixed cache failure and unbounded search query, load time cut to <1s), Elios Academy (learning platform for 80+ teachers — built ticketing system, fixed high-traffic layout bug), Yasso Design (rebuilt 4 dashboard sections on a 2-week deadline)
 
-- Built a full LMS alone end to end — public catalog, course player with progress tracking, payment integration with webhook handling, certificates, admin tools — designing 9 data models from scratch
-- Worked around a framework with zero documentation and a Node.js layer that blocked recursion and most native APIs; the internal docs written along the way became the project's reference
+---
 
-**Alyis — Cloud Hosting Reseller Platform** · _Jan – Aug 2025 · Solo_
+## Skills Development (Dec 2025 – Present)
 
-- Built a hosting storefront and admin dashboard from an empty repo, integrating a third-party hosting API with no real documentation and an inconsistent contract between what it returned and what it required to complete a purchase
-- Added real-time order-status updates over WebSocket and re-validated every purchase at the point of sale (reshaping payloads, refreshing tokens) to keep checkout reliable against an unstable upstream API
+Full-time deepening phase following 7 shipped contract projects:
+- **Data structures & algorithms** — daily practice
+- **Backend system design** — focused study toward backend-specialist roles
+- **Languages** — English (professional working proficiency), German (building toward professional working proficiency)
 
-**Additional client engagements:**
+---
 
-- **ComparePlus** _(13 months)_ — analytics dashboard with client-side caching and background refresh; reverse-engineered a full public-facing auth system the framework didn't natively support; cut a timing-out search page to under 1 second
-- **Elios Academy** _(12 months, part-time)_ — pixel-matched a custom dashboard UI against target designs; built a full issue-ticketing system; reverse-engineered the framework's hidden profile-update flow
-- **EliClass** _(1 month)_ — fixed a crashing dashboard tied to 4-year-old production financial data using a self-healing repair pattern, with zero risky writes to historical records
-- **Yasso Design** _(2 weeks, solo)_ — rebuilt 4 broken dashboard-driven sections from static templates into a fully admin-managed site
+## Languages
 
-##### Independent Study — Backend Engineering & Algorithms
+- **Arabic** — Native
+- **English** — Professional Working Proficiency
+- **German** — Limited Working Proficiency
 
-_De 2025 – Present_
+---
 
-- Completed an intensive, self-directed review of data structures & algorithms to meet the bar expected in competitive backend interviews
-- Reached working conversational proficiency in English and progressed in German A2/B1 from zero to support Germany-focused and international opportunities
-- Took on select freelance projects when the scope fit, without actively job-searching, to protect focus on the above
+## Education
 
-#### Education
-
-**BTS Informatique et Gestion** (Higher Technical Diploma, IT & Management) [IPSET (Institut Pilote des Sciences Economiques et de Technologie)] , Tunisia Sep 2021 – Dec 2023 (Degree conferred 2024) Two-year, post-Baccalauréat, practice-oriented program in applied computing and IT management.
-
-
-#### Languages
-
-- Arabic — [Native]
-- English — [Professional working proficiency]
-- German — [Limited working proficiency]
+**BTS Informatique et Gestion** (Higher Technical Diploma, IT & Management)
+IPSET (Institut Pilote des Sciences Economiques et de Technologie), Tunisia
+Sep 2021 – Dec 2023 (Degree conferred 2024)
