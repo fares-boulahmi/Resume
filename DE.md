@@ -2,7 +2,8 @@
 
 **Full-Stack-Entwickler — Schwerpunkt Backend**
 
-Tunis, Tunesien · boulahmifares@gmail.com · +216 96 520 768 · linkedin.com/in/faresboulahmi · github.com/fares-boulahmi · https://fares-boulahmi.github.io/Portfolio/
+📍 Tunis, Tunesien · ✉️ boulahmifares@gmail.com · 📱 +216 96 520 768
+[LinkedIn](https://www.linkedin.com/in/fares-boulahmi-342b61268/) · [GitHub](https://github.com/fares-boulahmi) · [Portfolio](https://fares-boulahmi.github.io/Portfolio/)
 
 ---
 
