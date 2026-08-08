@@ -20,7 +20,7 @@ Backend-orientierter Full-Stack Developer mit über einem Jahr Berufserfahrung i
 - **Frontend:** Vue.js 2, Vuex, Vuetify, Tailwind CSS, Liquid (serverseitiges Templating), Tiptap
 - **Integrationen:** Zahlungsanbieter (Konnect), Drittanbieter-APIs (isHosting), SMTP/E-Mail-Systeme, Scrapy
 - **Sonstiges:** Reverse Engineering von Framework-Internas, technische Dokumentation, Git
-- **Sprachen:** Arabisch (Muttersprache), Französisch (fließend), Englisch (berufliches Arbeitsniveau), Deutsch (B1)
+- **Sprachen:** Arabisch (Muttersprache), Englisch (berufliches Arbeitsniveau), Deutsch (B1)
 
 ---
 
@@ -30,7 +30,7 @@ Backend-orientierter Full-Stack Developer mit über einem Jahr Berufserfahrung i
 
 **Aug 2024 – Sep 2025 · Tunis, Tunesien**
 
-CyberOcean ([cyberocean.net](https://cyberocean.net/w/)) ist ein Softwareunternehmen, das ein firmeneigenes Web-Framework (CyberOcean Engine v2 — Vue 2 + Liquid + Node.js + MongoDB) entwickelt und pflegt, das in mehreren Kundenprojekten aus den Bereichen E-Learning, E-Commerce und Cloud-Hosting eingesetzt wird. Als alleiniger oder leitender Entwickler an 7 Kundenplattformen über  13 Monate beteiligt.
+CyberOcean ([cyberocean.net](https://cyberocean.net/w/)) ist ein Softwareunternehmen, das ein firmeneigenes Web-Framework (CyberOcean Engine v2 — Vue 2 + Liquid + Node.js + MongoDB) entwickelt und pflegt, das in mehreren Kundenprojekten aus den Bereichen E-Learning, E-Commerce und Cloud-Hosting eingesetzt wird. Als alleiniger oder leitender Entwickler an 7 Kundenplattformen über 13 Monate beteiligt.
 
 - Verfasste die einzige jemals geschriebene interne Dokumentation für CyberOcean Engine v2 — ein Framework ohne öffentliche Dokumentation, Community oder Support-Kanal — mit ausreichend technischer Tiefe, um erstmals KI-gestützte Backend-Codegenerierung für dieses Framework möglich zu machen.
 - Bildete zwei Entwickler im gesamten Framework-Entwicklungsablauf aus, darunter einen ohne vorherige berufliche Entwicklungserfahrung, bis beide eigenständig produktiv arbeiten konnten.
@@ -65,7 +65,7 @@ _[you-learn.tn](https://you-learn.tn/p/home) · Dashboard: [app.you-learn.tn](ht
 
 Kommerzielle E-Learning-Plattform für ein tunesisches Design-/3D-Bildungszentrum zum Onlineverkauf des bestehenden Kurskatalogs.
 
-- Entwarf und lieferte 9 zentrale Datenmodelle (Course, Category, Element, Purchase, Certificate, Student, OnlinePayment, Transaction, Review) sowie den kompletten Backend-, Dashboard- und Frontend-Stack allein in  6 Monaten, auf einem vollständig undokumentierten Framework.
+- Entwarf und lieferte 9 zentrale Datenmodelle (Course, Category, Element, Purchase, Certificate, Student, OnlinePayment, Transaction, Review) sowie den kompletten Backend-, Dashboard- und Frontend-Stack allein in 6 Monaten, auf einem vollständig undokumentierten Framework.
 - Entwickelte die komplette Zahlungspipeline — Katalog → Zahlungsanbieter → Kursfreischaltung — inklusive Webhook-Verarbeitung und Transaktionsprotokoll, und ermöglichte damit den ersten Online-Verkaufskanal des Kunden.
 - Löste die fehlende Unterstützung rekursiver/verschachtelter Darstellung in Liquid (dynamische Werbeformate, verschachtelte Kursstrukturen, gefilterte Karussells), indem die Bedingungslogik in die Controller-Ebene statt in die Template-Ebene verlagert wurde — Templates blieben dadurch flach, trotz komplexer Seitenlogik.
 - Entwarf und entwickelte ein Testimonial-System von Grund auf (Backend-Modell, Admin-UI, öffentliche Darstellung), obwohl kein Bewertungssystem existierte, und verschaffte der Startseite des Kunden damit erstmals Social-Proof-Inhalte.
@@ -103,7 +103,7 @@ Internes Verwaltungssystem für Lehrergehälter, Schülerzahlungen und Anwesenhe
 - Reparierte ein komplett abstürzendes Lehrergehalts-Dashboard, dessen Absturz durch fehlende berechnete Felder in Datensätzen verursacht wurde, die vor einer Schemaänderung angelegt worden waren — statt einer riskanten Massenmigration auf einer 4 Jahre alten produktiven Finanzdatenbank wurden selbstheilende Fallback-Lesevorgänge implementiert; stellte die Funktionalität ohne einen einzigen Schreibvorgang auf historische Zahlungsdaten wieder her.
 - Entwickelte einen druckbaren Anwesenheitslisten-Generator von Grund auf (Auswahl von Lehrkraft/Gruppe/Schülern, flexible Terminplanung nach Wochentag oder monatlicher Anzahl, PDF-Export).
 - Entwickelte eine Umsatz- und Ertragsberichtsfunktion von Grund auf (datumsgefilterte, kategorisierte Einnahmen plus vollständiges Transaktionsprotokoll nach Zahlungsart, Lehrkraft, Schüler und Status) — verschaffte dem Zentrum eine Finanzberichterstattung, die zuvor manuell erfolgen musste.
-- Lieferte beide neuen Funktionen größtenteils allein in  1 Monat, während der Rest des Teams vollständig in einem separaten, größeren Projekt gebunden war.
+- Lieferte beide neuen Funktionen größtenteils allein in 1 Monat, während der Rest des Teams vollständig in einem separaten, größeren Projekt gebunden war.
 
 #### Yasso Design — Marketing-Plattform für Design-Bildungszentrum
 
@@ -112,7 +112,7 @@ _[yassodesign.tn](https://yassodesign.tn/p/home) ·_
 Portfolio-/Marketingwebsite für ein CAD-/Figma-/3D-Design-Bildungszentrum.
 
 - Baute 4 zentrale, dashboardgesteuerte Bereiche (Themenauswahl, Aktionsverwaltung, animiertes Bewertungskarussell, Aktion des Monats) von nicht funktionierenden Template-Demos zu einer vollständig admin-editierbaren Startseite um — ohne funktionierende Vorarbeit.
-- Lieferte den gesamten Umbau allein in  2 Wochen als einziger verfügbarer Entwickler, während der zweite Entwickler des Teams vollständig im umsatzstärksten Projekt des Unternehmens gebunden war — der Kunde konnte liefern, ohne Ressourcen von wichtigeren Projekten abzuziehen.
+- Lieferte den gesamten Umbau allein in 2 Wochen als einziger verfügbarer Entwickler, während der zweite Entwickler des Teams vollständig im umsatzstärksten Projekt des Unternehmens gebunden war — der Kunde konnte liefern, ohne Ressourcen von wichtigeren Projekten abzuziehen.
 - Entwickelte Echtzeit-Kontaktformular- und Lead-Erfassungsabläufe, die als Live-Benachrichtigungen im Admin-Dashboard zur Nachverfolgung erscheinen.
 
 ---
@@ -126,4 +126,3 @@ Portfolio-/Marketingwebsite für ein CAD-/Figma-/3D-Design-Bildungszentrum.
 Zweijähriges, praxisorientiertes Studium in angewandter Informatik und IT-Management nach dem Baccalauréat.
 
 **Abschlussprojekt — Internes Job-Mobilitätsportal für La Poste Tunisienne** Entwarf und entwickelte eine interne Webplattform, über die das Management der La Poste interne Stellenausschreibungen (Anforderungen, Vorteile, Standort) veröffentlichen kann und Mitarbeitende sich direkt über ihr bestehendes Firmenkonto (SSO-integrierte Authentifizierung) mit Lebenslauf-Upload bewerben können. Lieferte ein zweiseitiges Dashboard: Bewerbende verfolgen ihren Bewerbungsstatus (ausstehend/abgelehnt/angenommen) mit Echtzeit-Benachrichtigungen bei Entscheidungen, während Führungskräfte alle Bewerbungen pro Ausschreibung prüfen, filtern und verwalten können. Vollständig funktionsfähig geliefert und erfüllte die internen Präsentationsanforderungen von La Poste für staatlich regulierte Projekte — ein Projektumfang, den La Poste aufgrund der Größe und der staatlich verbundenen Compliance-Anforderungen sonst extern vergibt — es fehlten lediglich Design-Feinschliff und formale Sicherheitstests vor dem Rollout.
-
